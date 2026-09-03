@@ -2,18 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Signup Sheet</title>
   <link rel="stylesheet" href="neutronstylesheet.css">
 </head>
 <body>
-<main class="card">
-    <h1> Club Sign-Up Sheet</h1>
+<main class="custom-box">
+    <h1 style="font-size: xxx-large"> Club Sign-Up Sheet</h1>
 </main>
 <form>
     <label for="Fname"> Insert your first name</label>
     <input type="text" id="Fname">
+    <br>
     <label for="Lname"> Insert your Last name</label>
     <input type="text" id="Lname">
+    <br>
+    <label for="gardening"> Gardening Club</label>
+    <input type="radio" id="gardening" name="club" value="gardening">
+    <br>
+    <label for="math"> Math Club</label>
+    <input type="radio" id="math" name="club" value="math">
+    <br>
+    <label for="rotary"> Rotary Club</label>
+    <input type="radio" id="rotary" name="club" value="rotary">
+    <br>
+    <label for="chess"> Chess Club</label>
+    <input type="radio" id="chess" name="club" value="chess">
+    <br>
+    <input type="submit">
+    <br>
+    <div class="card">
+    <a href="index.html">Go to Main page</a>
+    </div>
+    <br>
 </form>
 </body>
 <footer style="display: none"> <p>Sign Up Sheet</p> </footer>

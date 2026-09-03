@@ -51,9 +51,9 @@ h1 {
 }
 
 
-.custom-box h3 {
+.custom-box h3,h2,h1,p {
     font-size: 1.05rem;
-    color: #ffffff;
+    color: #070000;
     text-align: center;
     white-space: normal;
 }

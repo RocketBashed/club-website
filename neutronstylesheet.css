@@ -1,0 +1,72 @@
+CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5eadc, #fffaf3);
+    color: #3d342b;
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.card {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #4a3526;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.custom-box {
+    background-color: #FFFF7F;
+    width: 100%;
+    min-height: 200px;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gardeningclub,
+.club-info {
+    background-color: #5d96cc;
+    max-width: 500px;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+}
+
+
+.custom-box h3 {
+    font-size: 1.05rem;
+    color: #ffffff;
+    text-align: center;
+    white-space: normal;
+}
+p { line-break: auto}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .custom-box {
+        padding: 20px;
+    }
+
+    .custom-box p {
+        font-size: 0.95rem;
+    }
+}
